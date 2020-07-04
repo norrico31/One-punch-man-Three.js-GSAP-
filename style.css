@@ -130,17 +130,17 @@ nav ul li {
 #description {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
     overflow: hidden;
     height: 100px;
 }
 #description p {
     position: relative;
-    margin: 10px 0;
+    margin: 15px 0;
     font-size: 16px;
-    height: 100px;
+    max-height: 100%;
     color: #fff;
+    opacity: 0.8;
 }
 .btn {
     display: flex;

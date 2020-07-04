@@ -117,11 +117,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (descriptionDisplacement === 0 && direction === "prev") {
-            descriptionDisplacement -= 180
-        } else if (descriptionDisplacement === -180 && direction === "next") {
+            descriptionDisplacement -= 240
+        } else if (descriptionDisplacement === -240 && direction === "next") {
             descriptionDisplacement = 0
         } else {
-            descriptionDisplacement = direction === "next" ? descriptionDisplacement - 60 : descriptionDisplacement + 60
+            descriptionDisplacement = direction === "next" ? descriptionDisplacement - 80 : descriptionDisplacement + 80
         }
 
         let title = document.querySelectorAll('#title h4')
